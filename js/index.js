@@ -55,6 +55,7 @@ function gameEngine(){
         speed = 5;
         musicSound.play();
         score = 0;
+        document.getElementById("score").innerHTML = "Score: " + score;
     }
 
     if(snakeArr[0].x == food.x && snakeArr[0].y == food.y){
