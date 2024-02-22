@@ -8,7 +8,7 @@ let speed = 5;
 let score = 0;
 let lastPaintTime =0;
 let snakeArr = [
-    { x: 13, y:13}
+    { x: 13, y:13} 
 ]
 
 let food = {
@@ -52,6 +52,7 @@ function gameEngine(){
         inputDir= { x: 0, y: 0 };
         alert("Game Over, Press any key to play again!");
         snakeArr= [ { x: 13, y:13}];
+        speed = 5;
         musicSound.play();
         score = 0;
     }
